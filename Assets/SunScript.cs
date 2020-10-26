@@ -6,7 +6,7 @@ public class SunScript : MonoBehaviour
 {
     void Update()
     {
-        transform.Rotate(new Vector3(0f, -2f, 0f) * Time.deltaTime);
+        transform.Rotate(new Vector3(0f, -2000f, 0f) * Time.deltaTime);
 
     }
 }

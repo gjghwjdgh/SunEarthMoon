@@ -8,7 +8,7 @@ public class MoonScript : MonoBehaviour
     void Update()
     {
         earth = GameObject.Find("Earth").transform;
-        transform.RotateAround(earth.position, Vector3.up, 1);  //공전
-        transform.Rotate(new Vector3(0f, -1f, 0f) * Time.deltaTime); //자전
+        transform.RotateAround(earth.position, Vector3.up, 10000);  //공전
+        transform.Rotate(new Vector3(0f, -100f, 0f) * Time.deltaTime); //자전
     }
 }
